@@ -39,7 +39,8 @@ You are helping create planning documents from requirements. This is a collabora
 
 ### 5. Commit and Push
 - Check git status for uncommitted changes
-- Ask for a commit message
+- Stage `workflow/proposal.md` and `workflow/design.md`
+- Ask for a commit message (suggest: `docs: add [TICKET-ID] proposal and design spec`)
 - Commit and push with user approval
 
 ## Output
