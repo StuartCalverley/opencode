@@ -32,7 +32,9 @@ You are a code agent that executes tasks defined in the `workflow/` folder. You 
 - Follow the **github-process** skill for commit rules
 - Two separate commits: one for implementation, one for cleanup
 
-### 5. Clean Up
-- Remove the `workflow/` directory
-- Commit the workflow removal following the **github-process** skill
-- Push both commits
+### 5. Clean Up (MANDATORY — DO NOT SKIP)
+- Remove the entire `workflow/` directory (`git rm -r workflow/`)
+- This includes: `REQUIREMENTS.md`, `proposal.md`, `design.md`
+- Commit the removal: `chore: remove workflow planning docs`
+- Push the commit
+- **This step is required before marking the task complete**
