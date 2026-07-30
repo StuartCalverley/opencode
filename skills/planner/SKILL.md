@@ -50,6 +50,7 @@ You are helping plan a feature or issue at a high level. Your goal is to capture
   Link to the Linear ticket.
   ```
 - Present the written REQUIREMENTS.md to the user for approval
+- **⏸️ STOP — Do NOT proceed until the user explicitly approves the REQUIREMENTS.md**
 - Make any requested changes before proceeding
 
 ### 5. Update Linear Ticket
@@ -57,7 +58,14 @@ You are helping plan a feature or issue at a high level. Your goal is to capture
 - Add the agreed-upon summary to the ticket description
 - Use the `LINEAR_UPDATE_ISSUE` tool to update the ticket
 
-### 6. Stop — Do Not Proceed to Implementation
+### 6. Commit and Push REQUIREMENTS.md
+- Stage and commit the `workflow/REQUIREMENTS.md` file
+- Present the diff and proposed commit message for user approval before committing (follow the github-process skill)
+- **⏸️ STOP — Do NOT commit or push until the user explicitly approves**
+- Push the feature branch to origin
+- Report the branch URL to the user
+
+### 7. Stop — Do Not Proceed to Implementation
 - The planner workflow ends here
 - Do NOT begin coding, creating branches, or making changes to the codebase
 - The user will explicitly request implementation when ready
